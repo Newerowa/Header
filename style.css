@@ -1,0 +1,36 @@
+header, nav, footer, article {
+ display: block;   
+}
+
+ body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ } 
+
+ header {
+     background: grey;
+ }
+
+ nav {
+  float: left;
+  width: 200px;
+  background-color: lightcoral   
+ }
+
+ h1, h2 {
+    text-align: center;
+    color: black; 
+ }
+
+ 
+
+ article {
+     float: right;
+     width: 200px;
+     background-color: blueviolet;
+     margin-bottom: 10px;
+ }
+
+ footer {
+     clear: both;
+     background-color: rgb(110, 65, 65);
+ }
