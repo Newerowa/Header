@@ -1,36 +1,71 @@
-header, nav, footer, article {
- display: block;   
-}
-
- body {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ overflow-x: hidden;
+ max-width: 1366px;
+ margin: 0 auto;
  } 
 
+ header, nav, footer, article {
+    display: block; 
+   }
+
  header {
-     background: grey;
+ background: grey;
+ height: 200px;
+ position: relative;
+
  }
 
- nav {
-  float: left;
-  width: 200px;
-  background-color: lightcoral   
+ ul.nav, li {
+font-size: 25px;
+display:table-cell;
+float: right;
+display:inline-block;
+padding:10px;
+}
+    
+.logo {
+ margin-left: 20px;   
+}
+
+.sb {
+width: 36px;
+height: 36px;
+size: default;
+float: right;
+position: absolute;
+transform: translateX(1250px);
+top: 25px;
+display: inline-flex;
+}
+
+
+
+.menu {
+float: left;
+width: 168px;
+background-color: lightcoral 
+
  }
 
- h1, h2 {
-    text-align: center;
-    color: black; 
+h1, h2 {
+text-align: center;
+color: black; 
  }
+
+article {
+float: right;
+width: 1200px;
+background-color: blueviolet;
+margin-bottom: 10px;
+}
+
+
+footer {
+clear: both;
+background-color: rgb(110, 65, 65);
+}
 
  
-
- article {
-     float: right;
-     width: 200px;
-     background-color: blueviolet;
-     margin-bottom: 10px;
- }
-
- footer {
-     clear: both;
-     background-color: rgb(110, 65, 65);
- }
+  
+ 
